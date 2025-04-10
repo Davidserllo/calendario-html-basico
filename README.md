@@ -2,6 +2,12 @@
 
 Este es un pequeño proyecto web que realicé en 2023 para comenzar a aprender **HTML** y familiarizarme con la estructura básica de una página web. Consiste en un calendario del mes de **mayo 2023**, con eventos académicos destacados como exámenes, trabajos y prácticas.
 
+## 🔗 Ver el proyecto online
+
+Vista previa de la página web:
+🌐 **[https://davidserllo.github.io/calendario-html-basico/](https://davidserllo.github.io/calendario-html-basico/)**
+
+
 ## 🛠️ Tecnologías utilizadas
 
 - HTML5
