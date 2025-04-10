@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+/* --- */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: linear-gradient(to top left, #ff99ff 0%, #99ffcc 100%);
+  font-family: 'Helvetica';
+  font-size: 16px;
+}
+
+/* --- */
+
+#container {
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* --- */
+
+p {
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* --- */
+
+.calendario{
+  margin-top: 2em;
+}
+
+/* --- */
+
+.calendario th, .calendario caption {
+  font-family: 'PT Serif', serif;
+}
+
+/* --- */
+
+.calendario th, .calendario td, .calendario caption {
+  text-align: center;
+  padding: .2em .5em;
+  border: 1px solid black;
+}
+
+/* Formato del caption */
+
+.calendario caption{
+  margin-bottom: 5px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.ani{
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.mes{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* --- */
+
+.calendario td p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: .9rem;
+  text-align: left;
+  padding: 0;
+}
+
+/* Formato de las casillas */
+
+.calendario td{
+  font-family: 'Dosis', sans-serif;
+  text-align: right;
+  padding-bottom: 3rem;
+  width: 10%;
+  height: 6rem;
+  transition: background-color .5s;
+  vertical-align: text-top;
+}
+
+/* Hover */
+
+.calendario td:hover{
+  background-color: rgb(219, 157, 172);
+  color: rgb(122, 22, 22);
+
+  /* font-size: 1.6rem; */
+  /* text-align: center; */
+  /* padding: 0; */
+}
+
+/* Redimension de los Sabados y Domingos */
+
+table td:nth-child(6) {
+  text-align: right;
+  padding: .1rem .2rem 0rem 3rem;
+  padding-bottom: 3rem;
+  width: 6%;
+}
+
+table td:last-child {
+  text-align: right;
+  padding: .1rem .2rem 0rem 3rem;
+  padding-bottom: 3rem;
+  width: 6%;
+}
+
+/* --- */
